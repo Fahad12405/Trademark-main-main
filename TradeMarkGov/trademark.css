@@ -1,0 +1,123 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Step headings */
+.step-heading {
+    font-size: 1.5rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+/* Form styling */
+.form-label {
+    font-weight: bold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.form-control {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+/* Button styling */
+button.btn {
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.btn-primary {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+button.btn-primary:hover {
+    background-color: #00254d;
+}
+
+button.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+button.btn-secondary:hover {
+    background-color: #565e64;
+}
+
+/* Package and Search Card styling */
+.package-card,
+.search-card {
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.package-card:hover,
+.search-card:hover {
+    border-color: #003366;
+}
+
+.package-card h5,
+.search-card label {
+    color: #003366;
+}
+
+/* Privacy Policy */
+.privacy-policy {
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.privacy-policy h4 {
+    color: #003366;
+}
+
+.privacy-policy p,
+.privacy-policy ul {
+    font-size: 0.9rem;
+}
+
+/* Form step display */
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
